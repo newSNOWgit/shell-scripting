@@ -22,6 +22,9 @@ echo "my name is $name1 todays date is $(date)"
 
 echo "type your first num:"
 
+# function defination
+
+function comp_num() {
 read -p "first number" fname
 read -p "second number:" sname
 echo "for $1 $2 typed $fname and $sname"
@@ -39,3 +42,8 @@ then
 else
 	echo "nuber is 7"
 fi
+}
+
+# Funtion call
+
+comp_num "9"
